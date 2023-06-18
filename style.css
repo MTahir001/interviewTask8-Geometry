@@ -20,7 +20,8 @@ body{
     width: 300px;
     border-radius: 50%;
     background: green;
-    
+
+    position: relative;
 }
 .triangle{
     border-top: 100px solid transparent;
@@ -28,6 +29,6 @@ body{
     border-right: 140px solid transparent;
     border-bottom: 203px solid rgb(18, 44, 192);
     position: absolute;
-    bottom: 235px;
-    right: 500px;
+    bottom: 32%;
+    right:3.5%;
 }
