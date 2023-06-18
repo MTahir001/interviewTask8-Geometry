@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: skyblue;
+}
+
+.square{
+    height: 300px;
+    width: 300px;
+    background:red;
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: green;
+    
+}
+.triangle{
+    border-top: 100px solid transparent;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 203px solid rgb(18, 44, 192);
+    position: absolute;
+    bottom: 235px;
+    right: 500px;
+}
